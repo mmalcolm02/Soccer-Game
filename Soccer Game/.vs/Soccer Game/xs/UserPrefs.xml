@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{711262E9-5710-50ED-5FF4-9F4304C18EAE}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Challenge 4/Scripts/EnemyX.cs">
     <Files>
-      <File FileName="Assets/Challenge 4/Scripts/EnemyX.cs" Line="1" Column="1" />
-      <File FileName="Assets/Challenge 4/Scripts/PlayerControllerX.cs" Line="1" Column="1" />
-      <File FileName="Assets/Challenge 4/Scripts/RotateCameraX.cs" Line="1" Column="1" />
-      <File FileName="Assets/Challenge 4/Scripts/SpawnManagerX.cs" Line="1" Column="1" />
+      <File FileName="Assets/Challenge 4/Scripts/EnemyX.cs" Line="7" Column="29" />
+      <File FileName="Assets/Challenge 4/Scripts/PlayerControllerX.cs" />
+      <File FileName="Assets/Challenge 4/Scripts/RotateCameraX.cs" />
+      <File FileName="Assets/Challenge 4/Scripts/SpawnManagerX.cs" />
+      <File FileName="Assets/Challenge 4/Scripts/SmokeLocation.cs" Line="22" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

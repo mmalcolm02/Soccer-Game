@@ -6,7 +6,6 @@ public class SpawnManagerX : MonoBehaviour
 {
     public GameObject enemyPrefab;
     public GameObject powerupPrefab;
-    public GameObject enemy;
 
     private float spawnRangeX = 10;
     private float spawnZMin = 15; // set min spawn Z
@@ -15,6 +14,7 @@ public class SpawnManagerX : MonoBehaviour
     public int enemyCount;
     public int waveCount = 1;
 
+    public EnemyX enemyPF; //call enemy script - then assigned on Spawn Manager game object
 
     public GameObject player;
 
@@ -55,7 +55,7 @@ public class SpawnManagerX : MonoBehaviour
         {
             Instantiate(enemyPrefab, GenerateSpawnPosition(), enemyPrefab.transform.rotation);
         }
-
+        enemyPF.speed += 15; //each wave increase speed by 10
         waveCount++;
         ResetPlayerPosition(); // put player back at start
 

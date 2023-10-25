@@ -345,6 +345,7 @@
 "Assets/Challenge 4/Scripts/EnemyX.cs"
 "Assets/Challenge 4/Scripts/PlayerControllerX.cs"
 "Assets/Challenge 4/Scripts/RotateCameraX.cs"
+"Assets/Challenge 4/Scripts/SmokeLocation.cs"
 "Assets/Challenge 4/Scripts/SpawnManagerX.cs"
 -langversion:9.0
 
